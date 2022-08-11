@@ -1,4 +1,4 @@
-# #RRGGBB Sprints_Android_Development
+#RRGGBB Sprints_Android_Development
 
 
 ## Task#1 
