@@ -8,24 +8,25 @@ import java.util.Scanner
 * for each item in the list if it contains Characters A or M (ignore case )
 * print the String in uppercase
 * */
-
+var list2 : MutableSet<String>? = null
 fun main() {
     val scanner = Scanner(System.`in`)
-    val list2 = mutableSetOf<String>()
+     list2 = mutableSetOf()
    print("Enter the number of Strings :  ")
    var N = scanner.nextInt()
+    scanner.nextLine()
 
     while (N > 0){
         print("Enter Name : ")
-        val input = scanner.next()
-        list2.add(input)
+        val input = scanner.nextLine()
+        list2?.add(input)
         N--
 
     }
     println("The words that have 'M' or 'A' are : ")
-    for (i in 0 until list2.size){
-        if(check(list2.elementAt(i).toUpperCase())){
-            println(list2.elementAt(i).toUpperCase())
+    for (i in 0 until list2?.size!!){
+        if(check(list2!!.elementAt(i).toUpperCase())){
+            println(list2!!.elementAt(i).toUpperCase())
         }
     }
 }
