@@ -22,6 +22,7 @@ fun main() {
         N--
 
     }
+    println("The words that have 'M' or 'A' are : ")
     for (i in 0 until list2.size){
         if(check(list2.elementAt(i).toUpperCase())){
             println(list2.elementAt(i).toUpperCase())
