@@ -8,7 +8,7 @@ In addition to committing and pushing to  your GitHub Repo
 
 ## Task #2
  Read input from user
- if it is odd -> Print odd
+ if it is odd -> Print odd 
  if it is even -> Print Even
  if it is  even greater than 99 -> print even with three digits
  
